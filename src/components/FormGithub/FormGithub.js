@@ -26,7 +26,7 @@ class FormGithub extends Component {
         <div className='form-group'>
           <input onChange={this.handleChange} type='text' value={this.state.value} className='form-control' placeholder='Enter username...' />
         </div>
-        <button type='submit' className='btn btn-primary'>Find User</button>
+        <button id='button-form' type='submit' className='btn btn-primary'>Find User</button>
       </form>
     )
   }
