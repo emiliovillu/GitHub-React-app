@@ -24,9 +24,9 @@ class FormGithub extends Component {
     return (
       <form onSubmit={this.handleSumit}>
         <div className='form-group'>
-          <input onChange={this.handleChange} type='text' value={this.state.value} className='form-control' placeholder='Write user...' />
+          <input onChange={this.handleChange} type='text' value={this.state.value} className='form-control' placeholder='Enter username...' />
         </div>
-        <button type='submit' className='btn btn-primary'>Submit</button>
+        <button type='submit' className='btn btn-primary'>Find User</button>
       </form>
     )
   }
