@@ -1,0 +1,29 @@
+
+body {
+  background-image:  url('https://octodex.github.com/images/octobiwan.jpg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-y: 10px;
+  background-position-X: 300px;
+
+
+}
+
+/* .container {
+  background-color: rgba(0, 0, 0, 0.4);
+} */
+
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 50px;
+}
+li {
+  color: #ffffff;
+  font-size: 40px;
+}
+#title {
+  color: #0026ff;
+}
+.form-control {
+  background-color: transparent;
+}
